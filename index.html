@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÉduFrance - Cours en Ligne en Français</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Édu<span>France</span></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="presentation.html">Présentation</a></li>
+                    <li><a href="cours.html">Cours</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-outline">Connexion</a>
+                    <a href="#" class="btn btn-primary">Inscription</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Apprenez en ligne avec des experts francophones</h1>
+            <p>Découvrez des milliers de cours en français dans tous les domaines, adaptés à tous les niveaux.</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Que souhaitez-vous apprendre ?">
+                <button>Rechercher</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catégories -->
+    <section id="categories">
+        <div class="container">
+            <div class="section-title">
+                <h2>Catégories de cours</h2>
+                <p>Explorez nos différentes catégories pour trouver le cours qui vous correspond</p>
+            </div>
+            <div class="categories">
+                <div class="category-card">
+                    <div class="category-icon">💻</div>
+                    <div class="category-content">
+                        <h3>Développement Web</h3>
+                        <p>HTML, CSS, JavaScript, React, Node.js et plus encore</p>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">📊</div>
+                    <div class="category-content">
+                        <h3>Data Science</h3>
+                        <p>Python, Machine Learning, Analyse de données, Visualisation</p>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🎨</div>
+                    <div class="category-content">
+                        <h3>Design Graphique</h3>
+                        <p>UI/UX, Photoshop, Illustrator, Figma, Design d'interface</p>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">💼</div>
+                    <div class="category-content">
+                        <h3>Business</h3>
+                        <p>Marketing, Management, Entrepreneuriat, Finance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cours Populaires -->
+    <section id="courses" class="courses-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Cours populaires</h2>
+                <p>Découvrez nos cours les plus appréciés par la communauté</p>
+            </div>
+            <div class="courses">
+                <div class="course-card">
+                    <div class="course-image" style="background-color: #3498db;"></div>
+                    <div class="course-content">
+                        <span class="course-category">Développement Web</span>
+                        <h3 class="course-title">JavaScript Moderne ES6+</h3>
+                        <p class="course-instructor">Par Jean Dupont</p>
+                        <div class="course-meta">
+                            <span>⭐ 4.8 (1250 avis)</span>
+                            <span>⏱ 25h</span>
+                        </div>
+                        <div class="course-price">49,99€</div>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image" style="background-color: #2ecc71;"></div>
+                    <div class="course-content">
+                        <span class="course-category">Data Science</span>
+                        <h3 class="course-title">Python pour la Data Science</h3>
+                        <p class="course-instructor">Par Marie Martin</p>
+                        <div class="course-meta">
+                            <span>⭐ 4.9 (980 avis)</span>
+                            <span>⏱ 30h</span>
+                        </div>
+                        <div class="course-price">59,99€</div>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image" style="background-color: #e74c3c;"></div>
+                    <div class="course-content">
+                        <span class="course-category">Design</span>
+                        <h3 class="course-title">UI/UX Design avec Figma</h3>
+                        <p class="course-instructor">Par Sophie Leroy</p>
+                        <div class="course-meta">
+                            <span>⭐ 4.7 (870 avis)</span>
+                            <span>⏱ 20h</span>
+                        </div>
+                        <div class="course-price">44,99€</div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="cours.html" class="btn btn-primary">Voir tous les cours</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pourquoi nous choisir -->
+    <section id="about" class="features-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Pourquoi choisir ÉduFrance ?</h2>
+                <p>Découvrez ce qui fait de nous la plateforme idéale pour votre apprentissage</p>
+            </div>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">👨‍🏫</div>
+                    <h3>Experts Francophones</h3>
+                    <p>Tous nos cours sont créés et enseignés par des experts francophones reconnus dans leur domaine.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Accès à Vie</h3>
+                    <p>Une fois inscrit à un cours, vous y avez accès à vie, y compris aux mises à jour futures.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📱</div>
+                    <h3>Apprentissage Mobile</h3>
+                    <p>Apprenez où vous voulez, quand vous voulez avec notre application mobile dédiée.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">💬</div>
+                    <h3>Communauté Active</h3>
+                    <p>Rejoignez une communauté d'apprenants francophones pour échanger et progresser ensemble.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Témoignages -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Témoignages</h2>
+                <p>Découvrez ce que nos étudiants pensent de nos cours</p>
+            </div>
+            <div class="testimonial-cards">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Grâce au cours de développement web, j'ai pu décrocher mon premier emploi en tant que développeur front-end. Les explications sont claires et les projets pratiques m'ont vraiment aidé."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div>
+                            <h4>Thomas B.</h4>
+                            <p>Étudiant en développement web</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Les cours de data science sont excellents. J'ai particulièrement apprécié la pédagogie et les exercices concrets qui m'ont permis d'appliquer directement mes connaissances dans mon travail."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div>
+                            <h4>Émilie R.</h4>
+                            <p>Analyste de données</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>ÉduFrance</h3>
+                    <p>La plateforme de référence pour l'apprentissage en ligne en français.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Liens rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="cours.html">Cours</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Catégories</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Développement Web</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">Design Graphique</a></li>
+                        <li><a href="#">Business</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li><a href="mailto:contact@edufrance.fr">contact@edufrance.fr</a></li>
+                        <li><a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                        <li>Paris, France</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 ÉduFrance. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
